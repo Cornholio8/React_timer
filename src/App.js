@@ -1,6 +1,12 @@
+import Container from './components/Container/Container';
+import FormattedTime from './components/FormattedTime/FormattedTime';
+
 const App = () => {
+
   return (
-    <h1>Hello world</h1>
+    <Container>
+      <FormattedTime />
+    </Container>
   );
 };
 
