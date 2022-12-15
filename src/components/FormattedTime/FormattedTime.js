@@ -18,8 +18,8 @@ const FormattedTime = () => {
 
     if(isActive) {
       timer = setInterval(() => {
-        setTime((prevValue) => prevValue + 1)
-      }, 1);
+        setTime((prevValue) => prevValue + 100)
+      }, 100);
     } else if (!isActive) {
       clearInterval(timer);
     }
